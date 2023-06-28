@@ -13,7 +13,7 @@ Each project resides in its own dedicated folder, complete with all necessary fi
 | **3D Umbrella** - A dynamic 3D representation of an umbrella, created purely with HTML and CSS. | ![3D Umbrella](https://github.com/tokyohmachine/front-end-projects/blob/main/Projects-images/3D-umbrella.png) |
 | **Coffee Menu** - Website created with HTML and CSS | ![Coffee Menu](https://github.com/tokyohmachine/front-end-projects/blob/main/Projects-images/code-cafe1.png) |
 | **Survey Form** - Form created with HTML and CSS |  |
-| **Mugshot Cafe** - Website created with HTML and CSS | ![Mugshot Cafe](https://github.com/tokyohmachine/front-end-projects/blob/main/Projects-images/survey-form.png) |
+| **Mugshot Cafe** - Website created with HTML and CSS | ![Mugshot Cafe](https://github.com/tokyohmachine/front-end-projects/blob/main/Projects-images/Mugshot%20Cafe.png) |
 
 
 
