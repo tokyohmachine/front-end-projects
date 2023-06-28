@@ -8,12 +8,11 @@ Each project resides in its own dedicated folder, complete with all necessary fi
 
 
 ## Projects
-
-| Project's names | Link | 
+| Project's names |  Preview |
 | --------------- | --------------- | 
-| **3D Umbrella Project** - A dynamic 3D representation of an umbrella, created purely with HTML and CSS. |   | 
-|  |   | 
-|  |   | 
+| **3D Umbrella** - A dynamic 3D representation of an umbrella, created purely with HTML and CSS. | ![3D Umbrella](https://github.com/tokyohmachine/front-end-projects/blob/main/Projects-images/3D-umbrella.png) |
+| **Coffee Menu** - Website created with HTML and CSS| ![Coffee Menu](https://github.com/tokyohmachine/front-end-projects/blob/main/Projects-images/code-cafe1.png) |
+
 
 
 ## Contributing
