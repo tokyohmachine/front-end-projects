@@ -1,0 +1,198 @@
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.nav-item:hover {
+  background-color: aqua;
+}
+/* Add this CSS to style the elements */
+.relative-container {
+  position: relative;
+}
+
+.jumbotron-above-image {
+  background-color: #c2bfbfe3;  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%; /* Adjust the width as needed */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1; /* Place the jumbotron above the image */
+}
+
+/* Add media query for responsiveness */
+@media (max-width: 768px) {
+  .jumbotron-above-image {
+    width: 90%;
+  }
+}
+
+/* Add this CSS to style the layout */
+.col-md-6 {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.row img {
+  max-width: 100%;
+  height: auto;
+  margin-right: 20px;
+}
+
+.row h2 {
+  margin-top: 0;
+}
+
+.row p {
+  margin-bottom: 10px;
+}
+
+
+
+
+
+/*MOBILE  */
+@media only screen and (max-width: 600px) {
+
+  header .mobile {
+    display: block;
+    width: 100%;
+  }
+}
+
+/* ICONS MEDIAS */
+.mobile {
+  display: none;
+}
+.mobile ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.mobile li {
+  padding: 0;
+}
+
+/* Mobile */
+.mobile-2 {
+  display: none;
+}
+
+.mobile-cards .mobile-title,
+  .mobile-cards .column{
+    display: none;
+  }
+  
+ 
+  
+  /* start learning */
+  @media only screen and (max-width: 600px) {
+      .mobile-cards{
+        display: block;
+      }
+      .mobile-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 32px;
+        margin-bottom: 16px;
+    
+      }
+    
+      .mobile-title h1 {
+        font-size: 40px;
+        font-weight: bold;
+        color: #434242;
+        font-family: var(--font-family);
+      }
+      .mobile-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid #EEEEEE;
+        padding-bottom: 32px;
+    
+      }
+      .column {
+        width: 100%;
+      }
+      .mobile-space {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        height: 90px;
+        margin: 16px 16px 8px 16px;
+        background-color: #dfdcdc;
+        position: relative;
+      }
+    
+      .mobile-space h2 {
+        font-family: var(--font-family);
+        font-size: 25px;
+        font-weight: 550;
+        color: #4a4a4a;
+        padding: 16px 0 24px 16px;
+      }
+    
+    }
+    
+
+
+/* THIRD CONTAINER */
+
+@media only screen and (max-width: 900px) {
+  .video-section video {
+    height: 390px;
+  }
+  .f-title h1 {
+    font-size: 40px;
+
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .fourth-section-content .f-content,
+    .r-section{
+      display: none;
+    }
+ 
+
+}
+
+
+/* Footer */
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+ 
+}
+footer ul li {
+  padding-left: 10px;
+}
+footer li a {
+  color: #4a4a4a;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .border {
+    border: none;
+  }
+  
+}
