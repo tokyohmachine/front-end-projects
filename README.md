@@ -12,9 +12,9 @@ Each project resides in its own dedicated folder, complete with all necessary fi
 | --------------- | --------------- | 
 | **3D Umbrella** - A dynamic 3D representation of an umbrella, created purely with HTML and CSS. | ![3D Umbrella](https://github.com/tokyohmachine/front-end-projects/blob/main/Projects-images/3D-umbrella.png) |
 | **Coffee Menu** - Website created with HTML and CSS | ![Coffee Menu](https://github.com/tokyohmachine/front-end-projects/blob/main/Projects-images/code-cafe1.png) |
-| **Survey Form** - Form created with HTML and CSS |  |
 | **Mugshot Cafe** - Website created with HTML and CSS | ![Mugshot Cafe](https://github.com/tokyohmachine/front-end-projects/blob/main/Projects-images/Mugshot%20Cafe.png) |
 | **Colmar Academy** - Website created with HTML and CSS | ![Colmar Academy](https://github.com/tokyohmachine/front-end-projects/blob/main/Colmar%20Landing%20Page/Screenshot%20Colmar%20Academy.png) |
+| **Tea Cozy** - Website created with HTML and CSS | ![Tea Cozy](https://github.com/tokyohmachine/front-end-projects/blob/main/Tea%20Cozy%20Page/dist/images/Screenshot%202023-09-20%20at%2022-21-14%20Tea%20Cozy.png) |
 
 
 
