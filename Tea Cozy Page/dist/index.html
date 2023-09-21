@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tea Cozy</title>
+    <link rel="stylesheet" href="output.css" />
+    <link rel="stylesheet" href="style.css" class="css">
+  </head>
+  <!-- call on the terminal: npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch -->
+
+  <body class="bg-black">
+
+    <header class="py-5 pb-6 bg-black">
+      <nav class="flex items-center flex-wrap ">
+        <div class="flex items-center flex-shrink-0 text-white mr-6">
+          <img src="./images/tea-cozy-logo.png" class="fill-current h-8 ml-2" />
+        </div>
+
+        <div class="w-full flex-grow lg:flex lg:justify-end lg:w-auto block">
+          <ul class="flex">
+            <li class="-mb-px ml-1">
+              <a
+                class="rounded-t py-2 px-4 text-white font-semibold"
+                href="#mission"
+                >Mission</a
+              >
+            </li>
+            <li class="-mb-px ml-1">
+              <a
+                class="rounded-t py-2 px-4 text-white font-semibold"
+                href="#featured-tea"
+                >Featured Tea</a
+              >
+            </li>
+            <li class="-mb-px ml-1">
+              <a
+                class="rounded-t py-2 px-4 text-white font-semibold"
+                href="#locations"
+                >Locations</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- First section MISSION-->
+<section class="mx-auto text-center text-white" style="position: relative; max-width: 1200px;">
+
+  <div  id="mission" class="flex justify-center items-center py-5">
+    <img class="left-0 w-full h-auto" src="./images/tyler-nix-jE-27l7V3NU-unsplash.jpg" 
+    style="height: 650px;"/>
+
+    <div style="background-color: black; opacity: 0.8;">
+      <div class="inline-block">
+        <h2 class="font-sans text-4xl font-bold">Our Mission</h2>
+        <h4 class="font-sans text-2xl mt-3">
+          Handpicked, Artisanally Curated, Free Range, Sustainable, Small
+          Batch, Fair Trade, Organic Tea
+        </h4>
+      </div>
+    </div>
+  </div>
+    
+  <!-- Tea of the month-->
+  <div id="featured-tea" class="container py-5 " style="background-color: #242424; border-radius: 45px/15px;">
+    <h2 class="font-sans text-4xl font-bold pt-3">Tea of the Month</h2>
+    <h4 class="font-sans text-2xl my-5">What's Steeping at The Tea Cozy?</h4>
+
+    <div class="flex justify-center">
+      <div class="grid grid-cols-3 gap-3 ">
+        <!-- First Row -->
+        <div class="col-span-1">
+        <img
+          class="w-full"
+          src="./images/nathan-dumlao-8yBQQqH3q8Q-unsplash.jpg"
+          alt="Oolong Tea"
+          loading="lazy"
+          style="max-width: 350px"
+        />
+        <p class="mt-2">Oolong Tea</p>
+        </div>
+        <div class="col-span-1">
+        <img
+          class="w-full"
+          src="./images/sergey-n-WPOK3PRbWcQ-unsplash.jpg"
+          alt="Black tea"
+          loading="lazy"
+          style="max-width: 350px"
+        />
+        <p class="mt-2">Black Tea</p>
+        </div>
+        <div class="col-span-1">
+        <img
+          class="w-full"
+          src="./images/micheile-henderson-7lDRKvJyBlA-unsplash.jpg"
+          alt="Green tea"
+          loading="lazy"
+          style="max-width: 350px"
+        />
+        <p class="mt-2">Green Tea</p>
+        </div>
+
+        <!-- Second Row -->
+        <div class="col-span-1">
+        <img
+          class="w-full"
+          src="./images/shreyak-singh-bZ_mzIMuTLI-unsplash.jpg"
+          alt="Cookies"
+          loading="lazy"
+          style="max-width: 350px"
+        />
+        <p class="mt-2 mb-5">Cookies</p>
+        </div>
+        <div class="col-span-1">
+        <img
+          class="w-full"
+          src="./images/donut.jpg"
+          alt="Cake"
+          loading="lazy"
+          style="max-width: 350px"
+        />
+        <p class="mt-2 mb-5">Berry cake</p>
+        </div>
+        <div class="col-span-1">
+        <img
+          class="w-full"
+          src="./images/steven-weeks-iQq1NyJj-n8-unsplash.jpg"
+          alt="Macaron"
+          loading="lazy"
+          style="max-width: 350px"
+        />
+        <p class="mt-2 mb-5">Macaron tea</p>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+
+  <!-- Fourth Section LOCATIONS-->
+
+<div id="locations" class="container my-20" >
+  <div class="relative text-center text-white flex justify-center items-center">
+    <img class="absolute w-full mt-8" src="./images/jeremy-ricketts-6ZnhM-xBpos-unsplash.jpg" alt="Background Image" 
+     style="height: 500px">
+    
+    <div class="z-10">
+      <div class="w-full h-20">
+        <h2 class="font-sans text-4xl font-bold ">Locations</h2>
+      </div>
+
+      <div class="grid grid-cols-3 gap-3" >
+        <div class="col-span-1 bg-black rounded" style="width: 300px; height: 300px; opacity: 0.8">
+          <h3 class="font-sans text-3xl font-bold pt-4">Downtown</h3>
+          <ol class="font-sans text-2xl mt-5" style="line-height: 3rem;">
+            <li>384 West 4th St</li>
+            <li>Suite 108</li>
+            <li>Portland, Maine</li>
+          </ol>
+        </div>
+
+        <div class="col-span-1 bg-black rounded  leading-8" style="width: 300px; height: 300px; opacity: 0.8">
+          <h3 class="font-sans text-3xl font-bold pt-4">East Bayside</h3>
+          <ol class="font-sans text-2xl mt-5" style="line-height: 3rem;">
+            <li>3433 Phisherman's Avenue</li>
+            <li>(Northwest Corner)</li>
+            <li>Portland, Maine</li>
+          </ol>
+        </div>
+
+        <div class="col-span-1 bg-black rounded  leading-8" style="width: 300px; height: 300px; opacity: 0.8">
+          <h3 class="font-sans text-3xl font-bold pt-4">Oakdale</h3>
+          <ol class="font-sans text-2xl mt-5" style="line-height: 3rem;">
+            <li>515 Crescent Avenue</li>
+            <li>Second Floor</li>
+            <li>Portland, Maine</li>
+          </ol>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div> 
+
+</section>
+
+    <!-- Footer-->
+    <footer class="container flex flex-col items-center justify-center text-white pt-3">
+      <ul class="font-sans text-2xl mt-5 mb-5 text-center">
+        <li>contact@theteacozy.com</li>
+        <li>917-555-8904</li>
+      </ul>
+    
+      <span class="font-sans text-sm mt-2 mb-2">copyright The Tea Cozy 2023</span>
+    </footer>
+    
+
+  </body>
+</html>
